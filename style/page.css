@@ -18,24 +18,30 @@ main .contenue p{
 main .navigation{
   display: block;
   margin: 0px;
-  padding: 2px;
   border: solid white 2px;
   border-radius: 4px;
 }
 main .navigation a{
   text-decoration: none;
   color: white;
+  font-size: 20px;
+  margin: 5px;
 }
 main .navigation ul{
   list-style: none;
-  text-align: right;
 }
 main .navigation ul li{
   display: inline;
 }
 #vers_acceuil{
   text-align: left;
+  margin: 10px;
 }
 #vers_page{
   text-align: right;
+  border-left: solid white 2px;
+  padding-left: 10px;
+}
+main .navigation a:hover{
+  text-decoration: underline;
 }
