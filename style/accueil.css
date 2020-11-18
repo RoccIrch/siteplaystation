@@ -1,0 +1,109 @@
+main{
+  margin: 3%;
+  padding: 1%;
+}
+main a{
+  text-decoration: none;
+  color: white;
+}
+main a:hover{
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.contenue{
+  color: white;
+}
+.contenue h2{
+  margin: auto;
+  padding: auto;
+  margin-left: 3vw;
+  font-size: 48px;
+}
+.contenue p{
+  margin: auto;
+  font-size: 24px;
+  padding-top: 1vw;
+}
+.navigation ul{
+  list-style: none;
+  padding: 2em;
+  margin: 0px;
+}
+.navigation ul li{
+  display: grid;
+  grid-template:
+            "a b" auto
+            "c d" auto;
+  grid-gap: 10px;
+  text-align: center;
+}
+.navigation ul li a{
+  /*Text des buttons*/
+  text-decoration: none;
+  color: black;
+  border: solid #afa50f 4px;
+  border-radius: 4px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 25px;
+  /*Image des Buttons*/
+  background-repeat: no-repeat;
+  background-position: center 30px;
+  padding: 230px 40px 40px 40px;
+}
+#personnage{
+  background-image: url(../image/accueil/personnage.png);
+  background-size: 150px;
+  background-position: center 30px;
+  grid-area: a;
+  transition: all 0.5s;
+}
+#personnage:hover{
+  color: white;
+  border: solid #701415 4px;
+  background-color: #afa50f;
+  padding: 235px 45px 45px 45px;
+  text-decoration: underline;
+}
+#comics{
+  background-image: url(../image/accueil/comics.png);
+  background-position: center 15px;
+  background-size: 135px;
+  grid-area: b;
+  transition: all 0.5s;
+}
+#comics:hover{
+  color: white;
+  border: solid #701415 4px;
+  background-color: #afa50f;
+  padding: 235px 45px 45px 45px;
+  text-decoration: underline;
+}
+#films{
+  background-image: url(../image/accueil/films.png);
+  background-size: 200px;
+  background-position: center 10px;
+  grid-area: c;
+  transition: all 0.5s;
+}
+#films:hover{
+  color: white;
+  border: solid #701415 4px;
+  background-color: #afa50f;
+  padding: 235px 45px 45px 45px;
+  text-decoration: underline;
+}
+#mcu{
+  background-image: url(../image/accueil/mcu.png);
+  background-size: 150px;
+  background-position: center 5px;
+  grid-area: d;
+  transition: all 0.5s;
+}
+#mcu:hover{
+  color: white;
+  border: solid #701415 4px;
+  background-color: #afa50f;
+  padding: 235px 45px 45px 45px;
+  text-decoration: underline;
+}
