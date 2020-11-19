@@ -117,19 +117,11 @@ main a:hover{
       font-size: 56px;
   }
 }
-@media screen and (max-width: 900px){
-  main.contenue h2{
-    font-size: 10vw;
-  }
-  main.contenue p{
-      font-size: 64px;
-  }
-}
 @media screen and (max-width: 800px){
   main.contenue h2{
     font-size: 11vw;
   }
   main.contenue p{
-      font-size: 72px;
+      font-size: 86px;
   }
 }
