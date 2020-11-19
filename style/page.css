@@ -38,10 +38,21 @@ main .navigation ul li{
   margin: 10px;
 }
 #vers_page{
-  text-align: right;
   border-left: solid white 2px;
   padding-left: 10px;
 }
 main .navigation a:hover{
   text-decoration: underline;
+}
+
+@media screen and (max-width: 700px){
+  main .navigation ul li{
+    display: block;
+  }
+  main .navigation{
+    text-align: center;
+  }
+  #vers_page{
+    border-left: none;
+  }
 }
