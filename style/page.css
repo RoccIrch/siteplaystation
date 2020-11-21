@@ -46,7 +46,7 @@ main .navigation a:hover{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
   main .navigation ul li{
     display: block;
   }
