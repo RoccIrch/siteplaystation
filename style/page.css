@@ -39,7 +39,7 @@ main .navigation ul li{
   text-align: left;
   margin: 10px;
 }
-#vers_page{
+#vers_salon, #vers_portable, #vers_jeux, #vers_service{
   text-align: right;
   border-left: solid white 2px;
   padding-left: 10px;
