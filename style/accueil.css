@@ -60,7 +60,7 @@ main a:hover{
 #console_salon:hover{
   color: white;
   border: solid white 2px;
-  background-color: #00439c;
+  background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
@@ -74,7 +74,7 @@ main a:hover{
 #console_portable:hover{
   color: white;
   border: solid white 2px;
-  background-color: #00439c;
+  background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
@@ -87,7 +87,7 @@ main a:hover{
 #jeux:hover{
   color: white;
   border: solid white 2px;
-  background-color: #00439c;
+  background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
@@ -100,7 +100,7 @@ main a:hover{
 #service:hover{
   color: white;
   border: solid white 2px;
-  background-color: #00439c;
+  background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
