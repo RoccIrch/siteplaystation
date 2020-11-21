@@ -1,3 +1,4 @@
+/*Règle la taille, la position et la couleur partie contenue du main*/
 main .contenue{
   margin: 3%;
   padding: 1px;
@@ -15,6 +16,7 @@ main .contenue p{
   padding-top: 1vw;
 }
 
+/*Règle la taille, la position, la couleur, le style et les animations partie navigations du main*/
 main .navigation{
   display: block;
   margin: 0px;
@@ -46,9 +48,10 @@ main .navigation a:hover{
   text-decoration: underline;
 }
 
+/*Permet l'affichage complet et en taille suffisante sur tout les tailles d'écran*/
 @media screen and (max-width: 750px){
   main .navigation ul li{
-    display: block;
+    display: block; /*Superposition des éléments*/
   }
   main .navigation{
     text-align: center;

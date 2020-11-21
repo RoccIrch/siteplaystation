@@ -1,15 +1,17 @@
+/*Règle les paramètres globaux du main*/
 main{
   margin: 3%;
   padding: 1%;
 }
 main a{
-  text-decoration: none;
   color: white;
 }
 main a:hover{
-  text-decoration: underline;
+  font-style: italic;
   transition: 0.3s;
 }
+
+/*Règle la taille, la position et la couleur partie contenue du main*/
 .contenue{
   color: white;
 }
@@ -24,6 +26,8 @@ main a:hover{
   font-size: 24px;
   padding-top: 1vw;
 }
+
+/*Règle la taille, la position, la couleur, le style et les animations partie navigations du main*/
 .navigation ul{
   list-style: none;
   padding: 2em;
@@ -54,12 +58,12 @@ main a:hover{
 #console_salon{
   background-image: url(../image/console_salon.png);
   background-size: 200px;
-  grid-area: a;
+  grid-area: a; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
 }
 #console_salon:hover{
   color: white;
-  border: solid white 2px;
+  border: solid white 4px;
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
@@ -68,12 +72,12 @@ main a:hover{
   background-image: url(../image/console_portable.png);
   background-position: center 40px;
   background-size: 250px;
-  grid-area: b;
+  grid-area: b; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
 }
 #console_portable:hover{
   color: white;
-  border: solid white 2px;
+  border: solid white 4px;
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
@@ -81,12 +85,12 @@ main a:hover{
 #jeux{
   background-image: url(../image/jeux.png);
   background-size: 150px;
-  grid-area: c;
+  grid-area: c; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
 }
 #jeux:hover{
   color: white;
-  border: solid white 2px;
+  border: solid white 4px;
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
@@ -94,17 +98,18 @@ main a:hover{
 #service{
   background-image: url(../image/service.png);
   background-size: 175px;
-  grid-area: d;
+  grid-area: d; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
 }
 #service:hover{
   color: white;
-  border: solid white 2px;
+  border: solid white 4px;
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
 
+/*Règle la taille et la position du text et du titre de la partie contenue du main en fonction de la taille de la fenetre*/
 @media screen and (max-width: 1000px){
   .contenue h2{
     margin-left: 4vw;
