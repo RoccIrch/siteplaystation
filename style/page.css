@@ -38,6 +38,7 @@ main .navigation ul li{
   margin: 10px;
 }
 #vers_page{
+  text-align: right;
   border-left: solid white 2px;
   padding-left: 10px;
 }

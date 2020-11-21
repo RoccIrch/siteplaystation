@@ -17,11 +17,11 @@ main a:hover{
   margin: auto;
   padding: auto;
   margin-left: 3vw;
-  font-size: 5vw;
+  font-size: 48px;
 }
 .contenue p{
   margin: auto;
-  font-size: 32px;
+  font-size: 24px;
   padding-top: 1vw;
 }
 .navigation ul{
@@ -41,9 +41,9 @@ main a:hover{
   /*Text des buttons*/
   text-decoration: none;
   color: black;
-  border: solid #fbca03 4px;
-  border-radius: 4px;
-  background-color: rgba(255, 255,255, 0.7);
+  border: solid #00439c 4px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0.7);
   font-weight: bold;
   font-size: 25px;
   /*Image des Buttons*/
@@ -51,77 +51,77 @@ main a:hover{
   background-position: center 30px;
   padding: 230px 40px 40px 40px;
 }
-#personnage{
-  background-image: url(../image/accueil/personnage.png);
-  background-size: 150px;
-  background-position: center 30px;
+#console_salon{
+  background-image: url(../image/console_salon.png);
+  background-size: 200px;
   grid-area: a;
   transition: all 0.5s;
 }
-#personnage:hover{
+#console_salon:hover{
   color: white;
-  border: solid #aa0505 4px;
-  background-color: #fbca03;
+  border: solid white 2px;
+  background-color: #00439c;
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
-#comics{
-  background-image: url(../image/accueil/comics.png);
-  background-position: center 15px;
-  background-size: 135px;
+#console_portable{
+  background-image: url(../image/console_portable.png);
+  background-position: center 40px;
+  background-size: 250px;
   grid-area: b;
   transition: all 0.5s;
 }
-#comics:hover{
+#console_portable:hover{
   color: white;
-  border: solid #aa0505 4px;
-  background-color: #fbca03;
+  border: solid white 2px;
+  background-color: #00439c;
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
-#films{
-  background-image: url(../image/accueil/films.png);
-  background-size: 200px;
-  background-position: center 10px;
+#jeux{
+  background-image: url(../image/jeux.png);
+  background-size: 150px;
   grid-area: c;
   transition: all 0.5s;
 }
-#films:hover{
+#jeux:hover{
   color: white;
-  border: solid #aa0505 4px;
-  background-color: #fbca03;
+  border: solid white 2px;
+  background-color: #00439c;
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
-#mcu{
-  background-image: url(../image/accueil/mcu.png);
-  background-size: 150px;
-  background-position: center 5px;
+#service{
+  background-image: url(../image/service.png);
+  background-size: 175px;
   grid-area: d;
   transition: all 0.5s;
 }
-#mcu:hover{
+#service:hover{
   color: white;
-  border: solid #aa0505 4px;
-  background-color: #fbca03;
+  border: solid white 2px;
+  background-color: #00439c;
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px){
-  main.contenue h2{
-    padding-top: 10px;
-    font-size: 9vw;
+  .contenue h2{
+    margin-left: 4vw;
+    font-size: 6vw;
   }
-  main.contenue p{
-      font-size: 56px;
+  .contenue p{
+    font-size: 4vw;
+    padding-top: 1vw;
   }
 }
 @media screen and (max-width: 800px){
-  main.contenue h2{
-    font-size: 11vw;
+  .contenue h2{
+    margin-left: 6vw;
+    font-size: 8vw;
   }
-  main.contenue p{
-      font-size: 86px;
+  .contenue p{
+    font-size: 6vw;
+    padding-top: 2vw;
   }
 }
