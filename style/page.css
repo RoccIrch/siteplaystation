@@ -34,6 +34,8 @@ main section h3{
 	height: 300px;
   overflow: hidden;
   display: block;
+  border: solid white 3px;
+  border-radius: 6px
 }
 .slider_psp{
   float: right;
