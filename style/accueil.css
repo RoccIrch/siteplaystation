@@ -28,12 +28,12 @@ main a:hover{
 }
 
 /*Règle la taille, la position, la couleur, le style et les animations partie navigations du main*/
-.navigation ul{
+nav ul{
   list-style: none;
   padding: 2em;
   margin: 0px;
 }
-.navigation ul li{
+nav ul li{
   display: grid;
   grid-template:
             "a b" auto
@@ -41,7 +41,7 @@ main a:hover{
   grid-gap: 10px;
   text-align: center;
 }
-.navigation ul li a{
+nav ul li a{
   /*Text des buttons*/
   text-decoration: none;
   color: black;
@@ -67,6 +67,7 @@ main a:hover{
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
+  font-style: normal;
 }
 #console_portable{
   background-image: url(../image/console_portable.png);
@@ -81,6 +82,7 @@ main a:hover{
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
+  font-style: normal;
 }
 #jeux{
   background-image: url(../image/jeux.png);
@@ -94,6 +96,7 @@ main a:hover{
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
+  font-style: normal;
 }
 #service{
   background-image: url(../image/service.png);
@@ -107,6 +110,7 @@ main a:hover{
   background-color: rgba(0,67,156,0.7);
   padding: 235px 45px 45px 45px;
   text-decoration: underline;
+  font-style: normal;
 }
 
 /*Règle la taille et la position du text et du titre de la partie contenue du main en fonction de la taille de la fenetre*/
