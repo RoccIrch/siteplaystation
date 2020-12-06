@@ -31,6 +31,19 @@ main section h4{
   font-size: 24px;
   text-indent: 10px;
 }
+main section ul li{
+  font-size: 18px;
+}
+.image_simple img{
+  width: 20%;
+  float: left;
+  padding: 1em 2em;
+}
+.image_simple:nth-of-type(odd) img{
+  float: right;
+}
+
+
 
 .slider_psp, .slider_psvita {
 	width: 500px;
