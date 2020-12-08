@@ -62,10 +62,26 @@ main .intro a:hover{
 .image_simple:nth-of-type(odd) img{
   float: right;
 }
+iframe{
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin: 5px auto 0px auto;
+}
+.image_autre img{
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+}
+.image_bordure img{
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+  border: solid white 1px;
+}
 
 
-
-.slider_psp, .slider_psvita {
+.slider_psp, .slider_psvita, .slider_uncharted, .slider_randc{
 	width: 500px;
 	height: 300px;
   overflow: hidden;
@@ -85,6 +101,19 @@ main .intro a:hover{
   margin: 15px 15px 5px 5px;
 }
 .slider_psvita .slides:hover {
+  animation-play-state: paused;
+}
+.slider_uncharted{
+  float: right;
+  margin: 15px 15px 5px 5px;
+}
+.slider_uncharted .slides:hover {
+  animation-play-state: paused;
+}
+.slider_randc{
+  margin: 15px auto 5px auto;
+}
+.slider_randc .slides:hover {
   animation-play-state: paused;
 }
 .slides {
@@ -120,14 +149,14 @@ main .intro a:hover{
 }
 
 @media screen and (max-width: 800px) {
-  .slider_psp, .slider_psvita{
+  .slider_psp, .slider_psvita, .slider_uncharted, .slider_randc{
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media screen and (max-width: 600px) {
-  .slider_psp, .slider_psvita{
+  .slider_psp, .slider_psvita, .slider_uncharted, .slider_randc{
     display: none;
   }
 }
