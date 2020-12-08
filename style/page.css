@@ -1,3 +1,7 @@
+/*Animation douce à la descente quand on clique sur les liens*/
+html {
+  scroll-behavior: smooth;
+}
 /*Règle la taille, la position et la couleur partie contenue du main*/
 main .contenue{
   margin: 3%;
@@ -33,6 +37,22 @@ main section h4{
 }
 main section ul li{
   font-size: 18px;
+}
+main .intro a{
+  color: white;
+  text-decoration: underline;
+}
+main .intro a:hover{
+  font-style: italic;
+}
+#retour_en_haut{
+  text-align: center;
+}
+#retour_en_haut a{
+  color: white;
+  padding : 4px;
+  border: solid white 1px;
+  border-radius: 4px;
 }
 .image_simple img{
   width: 20%;
@@ -99,8 +119,18 @@ main section ul li{
 	}
 }
 
-
-
+@media screen and (max-width: 800px) {
+  .slider_psp, .slider_psvita{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider_psp, .slider_psvita{
+    display: none;
+  }
+}
 
 
 
@@ -147,5 +177,18 @@ main nav a:hover{
   }
   #vers_salon, #vers_portable, #vers_jeux, #vers_service{
     border-left: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .image_simple img{
+    float: none;
+    padding: 0px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_simple:nth-of-type(odd) img{
+    float: none;
   }
 }

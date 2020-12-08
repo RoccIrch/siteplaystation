@@ -21,3 +21,8 @@
     transform: translate(30px);
     font-style: italic;
 }
+@media screen and (max-width: 500px) {
+  .sources ul li a:hover{
+      transform: translate(15px);
+  }
+}
