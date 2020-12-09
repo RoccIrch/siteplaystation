@@ -8,7 +8,7 @@ html{
 }
 /*Dans cette partie on règle la police, la taille du body, ect.*/
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: rgba(10,10,10,0.35);
   display: block;
   margin: auto;
@@ -32,7 +32,7 @@ header a{
   line-height: 120px;
   padding-left: 140px;
 }
-header a.titre{
+header a#titre{
   background-image: url(../image/logo_playstation.png);
   background-position: left;
   background-repeat: no-repeat;
@@ -40,11 +40,16 @@ header a.titre{
   background-position: 20px;
 }
 
-/*Dans cette partie on règle le pied de page et ces composant : le text, le titre et le logo*/
-footer .pieddepage{
-  color: white;
+footer{
+  border-top: solid white 2px;
+  text-align: right;
 }
-footer .pieddepage p{
+/*Dans cette partie on règle le pied de page et ces composant : le text, le titre et le logo*/
+footer section{
+  color: white;
+  text-align: left;
+}
+footer section p{
   background-image: url(../image/logoCC-by-nc-sa.png);
   background-repeat: no-repeat;
   background-position: top left;
@@ -53,25 +58,21 @@ footer .pieddepage p{
 }
 
 /*Dans cette partie on règle le lien dans le pied de page et sa taille, sa position et son animation lorsqu'il est survolé*/
-footer .lienspieddepage{
-  position: relative;
-  text-align: right;
-  top: -100px;
-}
-footer .lienspieddepage a{
-  display: inline-block;
+footer > a{
   text-decoration: none;
   color: white;
   font-size: 40px;
+  position: relative;
+  top : -125px;
 }
-footer .lienspieddepage a:hover{
+footer a:hover{
   text-decoration: underline;
   transition: 0.3s;
 }
 
 /*Dans cette partie on règle la disparition du logo et la taille du text en fonction de la taille de la fenetre*/
 @media screen and (max-width: 1300px){
-  header a.titre{
+  header a#titre{
     background-image: none;
   }
   header{

@@ -12,7 +12,7 @@
   <body>
     <!-- Ceci est le header de la page. Elle contient un lien vers l'acceuil du site, le but étant de simplifier l'accès a l'acceuil de toutes les pages du site. -->
     <header>
-      <a class="titre" href="../index.html">L'histoire de PlayStation</a>
+      <a id="titre" href="../index.html">L'histoire de PlayStation</a>
     </header>
     <!-- Ceci est le main de la page. Il contient le contenue de la page : des titres, des paragraphes et une partie de navigation. -->
     <main>
@@ -29,12 +29,12 @@
       <!-- Ceci est la partie contenue du main. Je l'ai séparé de la partie navigation pour simplifier le CSS. -->
       <div class="contenue">
         <h2>Crédits</h2>
-        <section class="remerciement">
+        <section id="remerciement">
           <h3>Remerciement</h3>
           <p>Je tiens à remercier toutes les personnes m'ayant aidé à mettre en place ce site. D'abord, toutes les personnes ayant relu et m'ayant aidé à corriger les différents textes du site. Ensuite les personnes m'ayant donné des avis sur l'aspect du site. Et enfin les professeurs m'ayant fait des retours sur la globalité du site. </p>
         </section>
 
-        <section class="sources">
+        <section id="sources">
             <h3>Sources</h3>
             <h4>Sitographie</h4>
             <h5>Information sur PlayStation</h5>
@@ -85,16 +85,13 @@
     </main>
     <!-- Ceci est le footer de la page -->
     <footer>
-      <hr>
       <!-- Ceci est la partie Notice légale du footer. -->
-      <div class="pieddepage">
+      <section class="noctice_legale">
         <h3>Notice légale</h3>
         <p>Code HTML et CSS en licence CC-by-nc-sa</p>
-      </div>
+      </section>
       <!-- Ceci est la partie lien du footer. Elle est  séparé du reste pour simplifier la compréhension du CSS. -->
-      <div class="lienspieddepage">
-        <a href="../pages/credits.html">Crédits</a>
-      </div>
+        <a href="credits.html">Crédits</a>
     </footer>
   </body>
 </html>
