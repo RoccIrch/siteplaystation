@@ -54,25 +54,31 @@ main .intro a:hover{
   border: solid white 1px;
   border-radius: 4px;
 }
+
+/*Aligne a gauche, règle la taille et ajoute un padding au image dans une classe "image_simple"*/
 .image_simple img{
   width: 20%;
   float: left;
   padding: 1em 2em;
 }
+/*Aligne une image contenue dans une classe "image_simple" sur deux à droite. Ainsi, une image sur deux sera a gauche et l'autre a droite.*/
 .image_simple:nth-of-type(odd) img{
   float: right;
 }
+/*Règle la taille et la position du lecteur youtube*/
 iframe{
   display: block;
   width: 400px;
   height: 200px;
   margin: 5px auto 0px auto;
 }
+/*Donne les tailles et positions des images contenue dans une classe "image_autre"*/
 .image_autre img{
   width: 30%;
   display: block;
   margin: 10px auto;
 }
+/*Pareil que la règle du dessus mais on rajoute une bordure blanche sur les image ayant un couleur de fond ressamblant a celle du site afin qu'elles soit bien visible.*/
 .image_bordure img{
   width: 30%;
   display: block;
@@ -80,7 +86,7 @@ iframe{
   border: solid white 1px;
 }
 
-
+/*Ici on règle l'aspect du cardre ou va apparaitre le slider.*/
 .slider_psp, .slider_psvita, .slider_uncharted, .slider_randc{
 	width: 500px;
 	height: 300px;
@@ -89,6 +95,7 @@ iframe{
   border: solid white 3px;
   border-radius: 6px
 }
+/*Puis on les positionnes indépendamment. Et on ajoute une propriété qui met l'animation en pause au survole.*/
 .slider_psp{
   float: right;
   margin: 15px 5px 5px 15px;
@@ -124,6 +131,7 @@ iframe{
 	float: left;
 }
 
+/*Ici on règle les délai et les mouvement progressif de l'animation "glisse"*/
 @keyframes glisse {
 	0% {
 		transform: translateX(0);
@@ -148,6 +156,7 @@ iframe{
 	}
 }
 
+/*Et enfin on rend tous les sliders responsive en les recentrant puis en les faisaient disparaitre*/
 @media screen and (max-width: 800px) {
   .slider_psp, .slider_psvita, .slider_uncharted, .slider_randc{
     float: none;

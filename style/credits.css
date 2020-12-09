@@ -1,6 +1,8 @@
+/*On retire les borders placé sur toutes section dans la feuille de style "page.css"*/
 #remerciement, #sources{
   border: none;
 }
+/*on règle ensuite les tailles, positions et animations au survoles des éléments.*/
 #sources h4{
   font-size: 20px;
   text-indent: 15px;
@@ -21,6 +23,7 @@
     transform: translate(30px);
     font-style: italic;
 }
+/*Pour finir on diminue l'amplitude de l'animation pour les petits écrans*/
 @media screen and (max-width: 500px) {
   #sources ul li a:hover{
       transform: translate(15px);
