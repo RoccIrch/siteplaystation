@@ -73,7 +73,7 @@ iframe{
   margin: 5px auto 0px auto;
 }
 /*Donne les tailles et positions des images contenue dans une classe "image_autre"*/
-.image_autre img{
+.image_centree img{
   width: 30%;
   display: block;
   margin: 10px auto;

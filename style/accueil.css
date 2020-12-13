@@ -56,7 +56,7 @@ nav ul li a{
   padding: 230px 40px 40px 40px;
 }
 #console_salon{
-  background-image: url(../image/console_salon.png);
+  background-image: url(../image/contenu_page/accueil/console_salon.png);
   background-size: 200px;
   grid-area: a; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
@@ -70,7 +70,7 @@ nav ul li a{
   font-style: normal;
 }
 #console_portable{
-  background-image: url(../image/console_portable.png);
+  background-image: url(../image/contenu_page/accueil/console_portable.png);
   background-position: center 40px;
   background-size: 250px;
   grid-area: b; /*Permet la mise en page du menu de navigation*/
@@ -85,7 +85,7 @@ nav ul li a{
   font-style: normal;
 }
 #jeux{
-  background-image: url(../image/jeux.png);
+  background-image: url(../image/contenu_page/accueil/jeux.png);
   background-size: 150px;
   grid-area: c; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
@@ -99,7 +99,7 @@ nav ul li a{
   font-style: normal;
 }
 #service{
-  background-image: url(../image/service.png);
+  background-image: url(../image/contenu_page/accueil/service.png);
   background-size: 175px;
   grid-area: d; /*Permet la mise en page du menu de navigation*/
   transition: all 0.5s;
